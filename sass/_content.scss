@@ -1,0 +1,109 @@
+.main {
+    position: relative;
+    padding-top: 190px;
+    padding-bottom: 900px;
+}
+
+.main__item {
+    width: 640px;
+    border-radius: 15px;
+
+    &.pink {
+        background-color: #ebafae;
+    }
+    &.brown {
+        background-color: #ae7676;
+    }
+    &.yellow {
+        background-color: #ebccac;
+    }
+    &.blue {
+        background-color: #adaceb;
+    }
+
+    &.cssTutorial {
+        position: absolute;
+        top: 370px;
+        right: 0;
+}
+    &.raspberries {
+        width: 500px;
+        position: absolute;
+        top: 530px;
+        left: 0;
+}
+    &.webStudio {
+        width: 500px;
+        position: absolute;
+        top: 690px;
+        right: 0;
+}
+    &.jsTutorial {
+        position: absolute;
+        top: 850px;
+        left: 0; 
+}
+}
+
+.main_itemLink {
+    display: block;
+    position: relative;
+    width: 640px;
+    height: 300px;
+
+    &.small {
+        width: 500px;
+    }
+}
+
+.case-text {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+    font-family: ComfortaaL, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+
+    color: #ffffff;
+}
+
+.case-circle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.case-title {
+    position: absolute;
+    top: 95px;
+    left: 25px;
+
+    font-family: ComfortaaL, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+
+    color: #000;
+}
+
+.case-arrow {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.case-view {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+
+    font-family: ComfortaaL, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.2;
+
+    color: #ffffff;
+}
+
